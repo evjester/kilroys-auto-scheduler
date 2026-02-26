@@ -1,0 +1,5 @@
+Request ID,Employee ID,First Name,Last Name,From Date,To Date,Category,Status,Comments
+TO-001,EMP-002,Marcus,Rivera,2026-02-27,2026-02-27,Personal,Approved,Dentist appointment
+TO-002,EMP-008,Aisha,Williams,2026-03-06,2026-03-08,Vacation,Approved,Weekend trip
+TO-003,EMP-013,Darius,Washington,2026-02-28,2026-02-28,Personal,Approved,Family event
+TO-004,EMP-010,Katie,Brown,2026-03-03,2026-03-03,Sick,Pending,

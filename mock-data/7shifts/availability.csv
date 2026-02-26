@@ -1,0 +1,477 @@
+Employee ID,First Name,Last Name,Role,Day,Availability,Available From,Available To
+EMP-001,Sofia,Martinez,Bartender,Monday,All Day Unavailable,,
+EMP-001,Sofia,Martinez,Bartender,Tuesday,Available,11:00,03:00
+EMP-001,Sofia,Martinez,Bartender,Wednesday,Available,16:00,03:00
+EMP-001,Sofia,Martinez,Bartender,Thursday,Available,11:00,03:00
+EMP-001,Sofia,Martinez,Bartender,Friday,Available,11:00,03:00
+EMP-001,Sofia,Martinez,Bartender,Saturday,Available,11:00,03:00
+EMP-001,Sofia,Martinez,Bartender,Sunday,Available,11:00,03:00
+EMP-002,Marcus,Rivera,Bartender,Monday,Available,11:00,03:00
+EMP-002,Marcus,Rivera,Bartender,Tuesday,Available,11:00,03:00
+EMP-002,Marcus,Rivera,Bartender,Wednesday,Available,16:00,03:00
+EMP-002,Marcus,Rivera,Bartender,Thursday,Available,16:00,03:00
+EMP-002,Marcus,Rivera,Bartender,Friday,Available,16:00,03:00
+EMP-002,Marcus,Rivera,Bartender,Saturday,All Day Unavailable,,
+EMP-002,Marcus,Rivera,Bartender,Sunday,Available,11:00,03:00
+EMP-003,Jasmine,Chen,Bartender,Monday,All Day Unavailable,,
+EMP-003,Jasmine,Chen,Bartender,Tuesday,All Day Unavailable,,
+EMP-003,Jasmine,Chen,Bartender,Wednesday,Available,16:00,03:00
+EMP-003,Jasmine,Chen,Bartender,Thursday,Available,16:00,03:00
+EMP-003,Jasmine,Chen,Bartender,Friday,Available,16:00,03:00
+EMP-003,Jasmine,Chen,Bartender,Saturday,Available,11:00,03:00
+EMP-003,Jasmine,Chen,Bartender,Sunday,All Day Unavailable,,
+EMP-004,Jake,Patterson,Bartender,Monday,Available,11:00,03:00
+EMP-004,Jake,Patterson,Bartender,Tuesday,Available,11:00,03:00
+EMP-004,Jake,Patterson,Bartender,Wednesday,Available,11:00,03:00
+EMP-004,Jake,Patterson,Bartender,Thursday,Available,11:00,03:00
+EMP-004,Jake,Patterson,Bartender,Friday,Available,16:00,03:00
+EMP-004,Jake,Patterson,Bartender,Saturday,Available,16:00,03:00
+EMP-004,Jake,Patterson,Bartender,Sunday,Available,11:00,03:00
+EMP-005,Tyler,Brooks,Lead Bartender,Monday,Available,11:00,17:00
+EMP-005,Tyler,Brooks,Lead Bartender,Tuesday,Available,11:00,17:00
+EMP-005,Tyler,Brooks,Lead Bartender,Wednesday,Available,11:00,17:00
+EMP-005,Tyler,Brooks,Lead Bartender,Thursday,Available,11:00,17:00
+EMP-005,Tyler,Brooks,Lead Bartender,Friday,Available,11:00,17:00
+EMP-005,Tyler,Brooks,Lead Bartender,Saturday,Available,11:00,17:00
+EMP-005,Tyler,Brooks,Lead Bartender,Sunday,All Day Unavailable,,
+EMP-006,Ryan,Okafor,Barback,Monday,Available,16:00,03:00
+EMP-006,Ryan,Okafor,Barback,Tuesday,Available,16:00,03:00
+EMP-006,Ryan,Okafor,Barback,Wednesday,Available,16:00,03:00
+EMP-006,Ryan,Okafor,Barback,Thursday,Available,16:00,03:00
+EMP-006,Ryan,Okafor,Barback,Friday,Available,16:00,03:00
+EMP-006,Ryan,Okafor,Barback,Saturday,Available,16:00,03:00
+EMP-006,Ryan,Okafor,Barback,Sunday,All Day Unavailable,,
+EMP-007,Ethan,Kim,Barback,Monday,All Day Unavailable,,
+EMP-007,Ethan,Kim,Barback,Tuesday,Available,16:00,03:00
+EMP-007,Ethan,Kim,Barback,Wednesday,All Day Unavailable,,
+EMP-007,Ethan,Kim,Barback,Thursday,Available,16:00,03:00
+EMP-007,Ethan,Kim,Barback,Friday,Available,18:00,03:00
+EMP-007,Ethan,Kim,Barback,Saturday,Available,18:00,03:00
+EMP-007,Ethan,Kim,Barback,Sunday,Available,11:00,03:00
+EMP-008,Aisha,Williams,Server,Monday,Available,11:00,02:00
+EMP-008,Aisha,Williams,Server,Tuesday,Available,11:00,02:00
+EMP-008,Aisha,Williams,Server,Wednesday,Available,11:00,02:00
+EMP-008,Aisha,Williams,Server,Thursday,Available,11:00,02:00
+EMP-008,Aisha,Williams,Server,Friday,Available,11:00,02:00
+EMP-008,Aisha,Williams,Server,Saturday,All Day Unavailable,,
+EMP-008,Aisha,Williams,Server,Sunday,Available,11:00,02:00
+EMP-009,Tony,Garcia,Server,Monday,Available,11:00,02:00
+EMP-009,Tony,Garcia,Server,Tuesday,All Day Unavailable,,
+EMP-009,Tony,Garcia,Server,Wednesday,Available,11:00,02:00
+EMP-009,Tony,Garcia,Server,Thursday,Available,11:00,02:00
+EMP-009,Tony,Garcia,Server,Friday,Available,11:00,02:00
+EMP-009,Tony,Garcia,Server,Saturday,Available,11:00,02:00
+EMP-009,Tony,Garcia,Server,Sunday,Available,11:00,02:00
+EMP-010,Katie,Brown,Server,Monday,Available,11:00,17:00
+EMP-010,Katie,Brown,Server,Tuesday,Available,11:00,17:00
+EMP-010,Katie,Brown,Server,Wednesday,Available,11:00,17:00
+EMP-010,Katie,Brown,Server,Thursday,Available,11:00,17:00
+EMP-010,Katie,Brown,Server,Friday,Available,11:00,17:00
+EMP-010,Katie,Brown,Server,Saturday,Available,11:00,17:00
+EMP-010,Katie,Brown,Server,Sunday,All Day Unavailable,,
+EMP-013,Darius,Washington,Security,Monday,Available,16:00,02:00
+EMP-013,Darius,Washington,Security,Tuesday,Available,16:00,02:00
+EMP-013,Darius,Washington,Security,Wednesday,Available,16:00,02:00
+EMP-013,Darius,Washington,Security,Thursday,Available,16:00,02:00
+EMP-013,Darius,Washington,Security,Friday,Available,16:00,02:00
+EMP-013,Darius,Washington,Security,Saturday,Available,16:00,02:00
+EMP-013,Darius,Washington,Security,Sunday,All Day Unavailable,,
+EMP-014,Chris,Patel,Security,Monday,All Day Unavailable,,
+EMP-014,Chris,Patel,Security,Tuesday,Available,16:00,02:00
+EMP-014,Chris,Patel,Security,Wednesday,Available,16:00,02:00
+EMP-014,Chris,Patel,Security,Thursday,Available,16:00,02:00
+EMP-014,Chris,Patel,Security,Friday,Available,16:00,02:00
+EMP-014,Chris,Patel,Security,Saturday,Available,16:00,02:00
+EMP-014,Chris,Patel,Security,Sunday,All Day Unavailable,,
+EMP-015,Becca,Thompson,Bartender,Monday,Available,11:00,17:00
+EMP-015,Becca,Thompson,Bartender,Tuesday,Available,11:00,17:00
+EMP-015,Becca,Thompson,Bartender,Wednesday,Available,11:00,17:00
+EMP-015,Becca,Thompson,Bartender,Thursday,Available,11:00,17:00
+EMP-015,Becca,Thompson,Bartender,Friday,Available,11:00,17:00
+EMP-015,Becca,Thompson,Bartender,Saturday,Available,11:00,17:00
+EMP-015,Becca,Thompson,Bartender,Sunday,All Day Unavailable,,
+EMP-016,Drew,Collins,Bartender,Monday,Available,11:00,03:00
+EMP-016,Drew,Collins,Bartender,Tuesday,All Day Unavailable,,
+EMP-016,Drew,Collins,Bartender,Wednesday,Available,11:00,03:00
+EMP-016,Drew,Collins,Bartender,Thursday,Available,11:00,03:00
+EMP-016,Drew,Collins,Bartender,Friday,Available,16:00,03:00
+EMP-016,Drew,Collins,Bartender,Saturday,Available,16:00,03:00
+EMP-016,Drew,Collins,Bartender,Sunday,Available,11:00,03:00
+EMP-017,Megan,Russo,Bartender,Monday,All Day Unavailable,,
+EMP-017,Megan,Russo,Bartender,Tuesday,Available,16:00,03:00
+EMP-017,Megan,Russo,Bartender,Wednesday,Available,16:00,03:00
+EMP-017,Megan,Russo,Bartender,Thursday,Available,16:00,03:00
+EMP-017,Megan,Russo,Bartender,Friday,Available,16:00,03:00
+EMP-017,Megan,Russo,Bartender,Saturday,Available,11:00,03:00
+EMP-017,Megan,Russo,Bartender,Sunday,All Day Unavailable,,
+EMP-018,Cole,Jenkins,Bartender,Monday,Available,11:00,03:00
+EMP-018,Cole,Jenkins,Bartender,Tuesday,Available,11:00,03:00
+EMP-018,Cole,Jenkins,Bartender,Wednesday,Available,11:00,03:00
+EMP-018,Cole,Jenkins,Bartender,Thursday,Available,16:00,03:00
+EMP-018,Cole,Jenkins,Bartender,Friday,Available,16:00,03:00
+EMP-018,Cole,Jenkins,Bartender,Saturday,Available,16:00,03:00
+EMP-018,Cole,Jenkins,Bartender,Sunday,Available,11:00,03:00
+EMP-019,Hailey,Nguyen,Bartender,Monday,Available,11:00,03:00
+EMP-019,Hailey,Nguyen,Bartender,Tuesday,Available,11:00,03:00
+EMP-019,Hailey,Nguyen,Bartender,Wednesday,Available,11:00,03:00
+EMP-019,Hailey,Nguyen,Bartender,Thursday,Available,11:00,03:00
+EMP-019,Hailey,Nguyen,Bartender,Friday,Available,11:00,03:00
+EMP-019,Hailey,Nguyen,Bartender,Saturday,All Day Unavailable,,
+EMP-019,Hailey,Nguyen,Bartender,Sunday,Available,11:00,03:00
+EMP-020,Logan,Scott,Bartender,Monday,Available,11:00,17:00
+EMP-020,Logan,Scott,Bartender,Tuesday,Available,11:00,17:00
+EMP-020,Logan,Scott,Bartender,Wednesday,Available,11:00,17:00
+EMP-020,Logan,Scott,Bartender,Thursday,Available,11:00,17:00
+EMP-020,Logan,Scott,Bartender,Friday,Available,11:00,17:00
+EMP-020,Logan,Scott,Bartender,Saturday,Available,11:00,17:00
+EMP-020,Logan,Scott,Bartender,Sunday,Available,11:00,17:00
+EMP-021,Zoe,Henderson,Bartender,Monday,All Day Unavailable,,
+EMP-021,Zoe,Henderson,Bartender,Tuesday,Available,11:00,03:00
+EMP-021,Zoe,Henderson,Bartender,Wednesday,Available,11:00,03:00
+EMP-021,Zoe,Henderson,Bartender,Thursday,Available,11:00,03:00
+EMP-021,Zoe,Henderson,Bartender,Friday,Available,11:00,03:00
+EMP-021,Zoe,Henderson,Bartender,Saturday,Available,11:00,03:00
+EMP-021,Zoe,Henderson,Bartender,Sunday,All Day Unavailable,,
+EMP-022,Nate,Fitzgerald,Bartender,Monday,Available,11:00,03:00
+EMP-022,Nate,Fitzgerald,Bartender,Tuesday,All Day Unavailable,,
+EMP-022,Nate,Fitzgerald,Bartender,Wednesday,Available,16:00,03:00
+EMP-022,Nate,Fitzgerald,Bartender,Thursday,Available,16:00,03:00
+EMP-022,Nate,Fitzgerald,Bartender,Friday,Available,16:00,03:00
+EMP-022,Nate,Fitzgerald,Bartender,Saturday,Available,11:00,03:00
+EMP-022,Nate,Fitzgerald,Bartender,Sunday,Available,11:00,03:00
+EMP-023,Kayla,Murphy,Bartender,Monday,Available,11:00,03:00
+EMP-023,Kayla,Murphy,Bartender,Tuesday,Available,11:00,03:00
+EMP-023,Kayla,Murphy,Bartender,Wednesday,All Day Unavailable,,
+EMP-023,Kayla,Murphy,Bartender,Thursday,Available,11:00,03:00
+EMP-023,Kayla,Murphy,Bartender,Friday,Available,11:00,03:00
+EMP-023,Kayla,Murphy,Bartender,Saturday,Available,11:00,03:00
+EMP-023,Kayla,Murphy,Bartender,Sunday,Available,11:00,03:00
+EMP-024,Trey,Adams,Bartender,Monday,Available,11:00,03:00
+EMP-024,Trey,Adams,Bartender,Tuesday,Available,11:00,03:00
+EMP-024,Trey,Adams,Bartender,Wednesday,Available,11:00,03:00
+EMP-024,Trey,Adams,Bartender,Thursday,Available,11:00,03:00
+EMP-024,Trey,Adams,Bartender,Friday,Available,11:00,03:00
+EMP-024,Trey,Adams,Bartender,Saturday,Available,11:00,03:00
+EMP-024,Trey,Adams,Bartender,Sunday,Available,11:00,03:00
+EMP-025,Maddie,Turner,Bartender,Monday,Available,11:00,17:00
+EMP-025,Maddie,Turner,Bartender,Tuesday,Available,11:00,17:00
+EMP-025,Maddie,Turner,Bartender,Wednesday,Available,11:00,17:00
+EMP-025,Maddie,Turner,Bartender,Thursday,Available,11:00,17:00
+EMP-025,Maddie,Turner,Bartender,Friday,Available,11:00,17:00
+EMP-025,Maddie,Turner,Bartender,Saturday,All Day Unavailable,,
+EMP-025,Maddie,Turner,Bartender,Sunday,All Day Unavailable,,
+EMP-026,Dylan,Morales,Bartender,Monday,All Day Unavailable,,
+EMP-026,Dylan,Morales,Bartender,Tuesday,Available,11:00,03:00
+EMP-026,Dylan,Morales,Bartender,Wednesday,Available,11:00,03:00
+EMP-026,Dylan,Morales,Bartender,Thursday,Available,11:00,03:00
+EMP-026,Dylan,Morales,Bartender,Friday,Available,11:00,03:00
+EMP-026,Dylan,Morales,Bartender,Saturday,Available,11:00,03:00
+EMP-026,Dylan,Morales,Bartender,Sunday,All Day Unavailable,,
+EMP-027,Lexi,Harper,Bartender,Monday,Available,11:00,03:00
+EMP-027,Lexi,Harper,Bartender,Tuesday,Available,11:00,03:00
+EMP-027,Lexi,Harper,Bartender,Wednesday,Available,11:00,03:00
+EMP-027,Lexi,Harper,Bartender,Thursday,Available,11:00,03:00
+EMP-027,Lexi,Harper,Bartender,Friday,Available,16:00,03:00
+EMP-027,Lexi,Harper,Bartender,Saturday,Available,16:00,03:00
+EMP-027,Lexi,Harper,Bartender,Sunday,All Day Unavailable,,
+EMP-028,Caleb,Stewart,Bartender,Monday,Available,11:00,03:00
+EMP-028,Caleb,Stewart,Bartender,Tuesday,All Day Unavailable,,
+EMP-028,Caleb,Stewart,Bartender,Wednesday,Available,11:00,03:00
+EMP-028,Caleb,Stewart,Bartender,Thursday,Available,11:00,03:00
+EMP-028,Caleb,Stewart,Bartender,Friday,Available,11:00,03:00
+EMP-028,Caleb,Stewart,Bartender,Saturday,Available,11:00,03:00
+EMP-028,Caleb,Stewart,Bartender,Sunday,Available,11:00,03:00
+EMP-029,Jordan,Blake,Lead Bartender,Monday,Available,11:00,03:00
+EMP-029,Jordan,Blake,Lead Bartender,Tuesday,Available,11:00,03:00
+EMP-029,Jordan,Blake,Lead Bartender,Wednesday,Available,11:00,03:00
+EMP-029,Jordan,Blake,Lead Bartender,Thursday,Available,11:00,03:00
+EMP-029,Jordan,Blake,Lead Bartender,Friday,Available,11:00,03:00
+EMP-029,Jordan,Blake,Lead Bartender,Saturday,Available,11:00,03:00
+EMP-029,Jordan,Blake,Lead Bartender,Sunday,Available,11:00,03:00
+EMP-030,Samantha,Reed,Lead Bartender,Monday,All Day Unavailable,,
+EMP-030,Samantha,Reed,Lead Bartender,Tuesday,Available,11:00,17:00
+EMP-030,Samantha,Reed,Lead Bartender,Wednesday,Available,11:00,17:00
+EMP-030,Samantha,Reed,Lead Bartender,Thursday,Available,11:00,17:00
+EMP-030,Samantha,Reed,Lead Bartender,Friday,Available,11:00,17:00
+EMP-030,Samantha,Reed,Lead Bartender,Saturday,Available,11:00,17:00
+EMP-030,Samantha,Reed,Lead Bartender,Sunday,All Day Unavailable,,
+EMP-031,Matt,Donovan,Lead Bartender,Monday,Available,11:00,03:00
+EMP-031,Matt,Donovan,Lead Bartender,Tuesday,Available,11:00,03:00
+EMP-031,Matt,Donovan,Lead Bartender,Wednesday,Available,11:00,03:00
+EMP-031,Matt,Donovan,Lead Bartender,Thursday,Available,11:00,03:00
+EMP-031,Matt,Donovan,Lead Bartender,Friday,All Day Unavailable,,
+EMP-031,Matt,Donovan,Lead Bartender,Saturday,All Day Unavailable,,
+EMP-031,Matt,Donovan,Lead Bartender,Sunday,Available,11:00,03:00
+EMP-032,Olivia,Price,Lead Bartender,Monday,Available,16:00,03:00
+EMP-032,Olivia,Price,Lead Bartender,Tuesday,All Day Unavailable,,
+EMP-032,Olivia,Price,Lead Bartender,Wednesday,Available,16:00,03:00
+EMP-032,Olivia,Price,Lead Bartender,Thursday,Available,16:00,03:00
+EMP-032,Olivia,Price,Lead Bartender,Friday,Available,16:00,03:00
+EMP-032,Olivia,Price,Lead Bartender,Saturday,Available,11:00,03:00
+EMP-032,Olivia,Price,Lead Bartender,Sunday,All Day Unavailable,,
+EMP-033,Devon,Marshall,Barback,Monday,Available,11:00,03:00
+EMP-033,Devon,Marshall,Barback,Tuesday,Available,11:00,03:00
+EMP-033,Devon,Marshall,Barback,Wednesday,Available,11:00,03:00
+EMP-033,Devon,Marshall,Barback,Thursday,Available,11:00,03:00
+EMP-033,Devon,Marshall,Barback,Friday,Available,11:00,03:00
+EMP-033,Devon,Marshall,Barback,Saturday,Available,11:00,03:00
+EMP-033,Devon,Marshall,Barback,Sunday,All Day Unavailable,,
+EMP-034,Jalen,Cooper,Barback,Monday,Available,11:00,03:00
+EMP-034,Jalen,Cooper,Barback,Tuesday,Available,11:00,03:00
+EMP-034,Jalen,Cooper,Barback,Wednesday,Available,11:00,03:00
+EMP-034,Jalen,Cooper,Barback,Thursday,All Day Unavailable,,
+EMP-034,Jalen,Cooper,Barback,Friday,Available,16:00,03:00
+EMP-034,Jalen,Cooper,Barback,Saturday,Available,16:00,03:00
+EMP-034,Jalen,Cooper,Barback,Sunday,Available,11:00,03:00
+EMP-035,Isaac,Bell,Barback,Monday,Available,11:00,17:00
+EMP-035,Isaac,Bell,Barback,Tuesday,Available,11:00,17:00
+EMP-035,Isaac,Bell,Barback,Wednesday,Available,11:00,17:00
+EMP-035,Isaac,Bell,Barback,Thursday,Available,11:00,17:00
+EMP-035,Isaac,Bell,Barback,Friday,Available,11:00,17:00
+EMP-035,Isaac,Bell,Barback,Saturday,Available,11:00,17:00
+EMP-035,Isaac,Bell,Barback,Sunday,All Day Unavailable,,
+EMP-036,Mason,Perry,Barback,Monday,All Day Unavailable,,
+EMP-036,Mason,Perry,Barback,Tuesday,Available,16:00,03:00
+EMP-036,Mason,Perry,Barback,Wednesday,Available,16:00,03:00
+EMP-036,Mason,Perry,Barback,Thursday,Available,16:00,03:00
+EMP-036,Mason,Perry,Barback,Friday,Available,16:00,03:00
+EMP-036,Mason,Perry,Barback,Saturday,Available,16:00,03:00
+EMP-036,Mason,Perry,Barback,Sunday,All Day Unavailable,,
+EMP-037,Lucas,Ward,Barback,Monday,Available,11:00,03:00
+EMP-037,Lucas,Ward,Barback,Tuesday,All Day Unavailable,,
+EMP-037,Lucas,Ward,Barback,Wednesday,Available,11:00,03:00
+EMP-037,Lucas,Ward,Barback,Thursday,Available,11:00,03:00
+EMP-037,Lucas,Ward,Barback,Friday,All Day Unavailable,,
+EMP-037,Lucas,Ward,Barback,Saturday,Available,11:00,03:00
+EMP-037,Lucas,Ward,Barback,Sunday,Available,11:00,03:00
+EMP-038,Brandon,Long,Barback,Monday,Available,11:00,03:00
+EMP-038,Brandon,Long,Barback,Tuesday,Available,11:00,03:00
+EMP-038,Brandon,Long,Barback,Wednesday,All Day Unavailable,,
+EMP-038,Brandon,Long,Barback,Thursday,Available,11:00,03:00
+EMP-038,Brandon,Long,Barback,Friday,Available,11:00,03:00
+EMP-038,Brandon,Long,Barback,Saturday,Available,11:00,03:00
+EMP-038,Brandon,Long,Barback,Sunday,Available,11:00,03:00
+EMP-039,Paige,Ramirez,Server,Monday,Available,11:00,02:00
+EMP-039,Paige,Ramirez,Server,Tuesday,Available,11:00,02:00
+EMP-039,Paige,Ramirez,Server,Wednesday,Available,11:00,02:00
+EMP-039,Paige,Ramirez,Server,Thursday,Available,11:00,02:00
+EMP-039,Paige,Ramirez,Server,Friday,Available,11:00,02:00
+EMP-039,Paige,Ramirez,Server,Saturday,Available,11:00,02:00
+EMP-039,Paige,Ramirez,Server,Sunday,All Day Unavailable,,
+EMP-040,Noah,Foster,Server,Monday,All Day Unavailable,,
+EMP-040,Noah,Foster,Server,Tuesday,Available,11:00,17:00
+EMP-040,Noah,Foster,Server,Wednesday,Available,11:00,17:00
+EMP-040,Noah,Foster,Server,Thursday,Available,11:00,17:00
+EMP-040,Noah,Foster,Server,Friday,Available,11:00,17:00
+EMP-040,Noah,Foster,Server,Saturday,Available,11:00,17:00
+EMP-040,Noah,Foster,Server,Sunday,Available,11:00,17:00
+EMP-041,Emma,Sullivan,Server,Monday,Available,11:00,02:00
+EMP-041,Emma,Sullivan,Server,Tuesday,Available,11:00,02:00
+EMP-041,Emma,Sullivan,Server,Wednesday,Available,11:00,02:00
+EMP-041,Emma,Sullivan,Server,Thursday,All Day Unavailable,,
+EMP-041,Emma,Sullivan,Server,Friday,Available,11:00,02:00
+EMP-041,Emma,Sullivan,Server,Saturday,Available,11:00,02:00
+EMP-041,Emma,Sullivan,Server,Sunday,Available,11:00,02:00
+EMP-042,Grace,Kelley,Server,Monday,Available,11:00,02:00
+EMP-042,Grace,Kelley,Server,Tuesday,Available,11:00,02:00
+EMP-042,Grace,Kelley,Server,Wednesday,All Day Unavailable,,
+EMP-042,Grace,Kelley,Server,Thursday,Available,11:00,02:00
+EMP-042,Grace,Kelley,Server,Friday,Available,11:00,02:00
+EMP-042,Grace,Kelley,Server,Saturday,All Day Unavailable,,
+EMP-042,Grace,Kelley,Server,Sunday,Available,11:00,02:00
+EMP-043,Liam,Hayes,Server,Monday,Available,11:00,02:00
+EMP-043,Liam,Hayes,Server,Tuesday,All Day Unavailable,,
+EMP-043,Liam,Hayes,Server,Wednesday,Available,16:00,02:00
+EMP-043,Liam,Hayes,Server,Thursday,Available,16:00,02:00
+EMP-043,Liam,Hayes,Server,Friday,Available,16:00,02:00
+EMP-043,Liam,Hayes,Server,Saturday,Available,11:00,02:00
+EMP-043,Liam,Hayes,Server,Sunday,All Day Unavailable,,
+EMP-044,Marcus,Green,Security,Monday,Available,16:00,02:00
+EMP-044,Marcus,Green,Security,Tuesday,Available,16:00,02:00
+EMP-044,Marcus,Green,Security,Wednesday,Available,16:00,02:00
+EMP-044,Marcus,Green,Security,Thursday,Available,16:00,02:00
+EMP-044,Marcus,Green,Security,Friday,Available,16:00,02:00
+EMP-044,Marcus,Green,Security,Saturday,Available,16:00,02:00
+EMP-044,Marcus,Green,Security,Sunday,All Day Unavailable,,
+EMP-045,Andre,Jackson,Security,Monday,Available,16:00,02:00
+EMP-045,Andre,Jackson,Security,Tuesday,All Day Unavailable,,
+EMP-045,Andre,Jackson,Security,Wednesday,Available,16:00,02:00
+EMP-045,Andre,Jackson,Security,Thursday,Available,16:00,02:00
+EMP-045,Andre,Jackson,Security,Friday,Available,16:00,02:00
+EMP-045,Andre,Jackson,Security,Saturday,Available,16:00,02:00
+EMP-045,Andre,Jackson,Security,Sunday,All Day Unavailable,,
+EMP-046,Terrence,Boyd,Security,Monday,All Day Unavailable,,
+EMP-046,Terrence,Boyd,Security,Tuesday,Available,16:00,02:00
+EMP-046,Terrence,Boyd,Security,Wednesday,Available,16:00,02:00
+EMP-046,Terrence,Boyd,Security,Thursday,Available,16:00,02:00
+EMP-046,Terrence,Boyd,Security,Friday,Available,16:00,02:00
+EMP-046,Terrence,Boyd,Security,Saturday,Available,16:00,02:00
+EMP-046,Terrence,Boyd,Security,Sunday,All Day Unavailable,,
+EMP-047,Kevin,Walsh,Lead Bartender,Monday,Available,11:00,03:00
+EMP-047,Kevin,Walsh,Lead Bartender,Tuesday,Available,11:00,03:00
+EMP-047,Kevin,Walsh,Lead Bartender,Wednesday,Available,11:00,03:00
+EMP-047,Kevin,Walsh,Lead Bartender,Thursday,Available,11:00,03:00
+EMP-047,Kevin,Walsh,Lead Bartender,Friday,Available,11:00,03:00
+EMP-047,Kevin,Walsh,Lead Bartender,Saturday,Available,11:00,03:00
+EMP-047,Kevin,Walsh,Lead Bartender,Sunday,Available,11:00,03:00
+EMP-048,Rachel,Ellis,Lead Bartender,Monday,Available,11:00,03:00
+EMP-048,Rachel,Ellis,Lead Bartender,Tuesday,Available,11:00,03:00
+EMP-048,Rachel,Ellis,Lead Bartender,Wednesday,Available,11:00,03:00
+EMP-048,Rachel,Ellis,Lead Bartender,Thursday,All Day Unavailable,,
+EMP-048,Rachel,Ellis,Lead Bartender,Friday,Available,11:00,03:00
+EMP-048,Rachel,Ellis,Lead Bartender,Saturday,Available,11:00,03:00
+EMP-048,Rachel,Ellis,Lead Bartender,Sunday,Available,11:00,03:00
+EMP-049,Ian,Doyle,Bartender,Monday,Available,11:00,03:00
+EMP-049,Ian,Doyle,Bartender,Tuesday,Available,11:00,03:00
+EMP-049,Ian,Doyle,Bartender,Wednesday,All Day Unavailable,,
+EMP-049,Ian,Doyle,Bartender,Thursday,Available,16:00,03:00
+EMP-049,Ian,Doyle,Bartender,Friday,Available,16:00,03:00
+EMP-049,Ian,Doyle,Bartender,Saturday,Available,11:00,03:00
+EMP-049,Ian,Doyle,Bartender,Sunday,All Day Unavailable,,
+EMP-050,Taylor,Quinn,Bartender,Monday,Available,11:00,17:00
+EMP-050,Taylor,Quinn,Bartender,Tuesday,Available,11:00,17:00
+EMP-050,Taylor,Quinn,Bartender,Wednesday,Available,11:00,17:00
+EMP-050,Taylor,Quinn,Bartender,Thursday,Available,11:00,17:00
+EMP-050,Taylor,Quinn,Bartender,Friday,Available,11:00,17:00
+EMP-050,Taylor,Quinn,Bartender,Saturday,All Day Unavailable,,
+EMP-050,Taylor,Quinn,Bartender,Sunday,Available,11:00,17:00
+EMP-051,Brianna,Taylor,Carder,Monday,All Day Unavailable,,
+EMP-051,Brianna,Taylor,Carder,Tuesday,Available,16:00,02:00
+EMP-051,Brianna,Taylor,Carder,Wednesday,Available,16:00,02:00
+EMP-051,Brianna,Taylor,Carder,Thursday,Available,16:00,02:00
+EMP-051,Brianna,Taylor,Carder,Friday,Available,16:00,02:00
+EMP-051,Brianna,Taylor,Carder,Saturday,Available,16:00,02:00
+EMP-051,Brianna,Taylor,Carder,Sunday,All Day Unavailable,,
+EMP-052,Jaylen,Davis,Carder,Monday,All Day Unavailable,,
+EMP-052,Jaylen,Davis,Carder,Tuesday,All Day Unavailable,,
+EMP-052,Jaylen,Davis,Carder,Wednesday,Available,16:00,02:00
+EMP-052,Jaylen,Davis,Carder,Thursday,Available,16:00,02:00
+EMP-052,Jaylen,Davis,Carder,Friday,Available,16:00,02:00
+EMP-052,Jaylen,Davis,Carder,Saturday,Available,16:00,02:00
+EMP-052,Jaylen,Davis,Carder,Sunday,All Day Unavailable,,
+EMP-053,Savannah,Moore,Carder,Monday,All Day Unavailable,,
+EMP-053,Savannah,Moore,Carder,Tuesday,Available,16:00,02:00
+EMP-053,Savannah,Moore,Carder,Wednesday,Available,16:00,02:00
+EMP-053,Savannah,Moore,Carder,Thursday,Available,16:00,02:00
+EMP-053,Savannah,Moore,Carder,Friday,Available,16:00,02:00
+EMP-053,Savannah,Moore,Carder,Saturday,Available,16:00,02:00
+EMP-053,Savannah,Moore,Carder,Sunday,All Day Unavailable,,
+EMP-054,Tyler,Wright,Carder,Monday,All Day Unavailable,,
+EMP-054,Tyler,Wright,Carder,Tuesday,All Day Unavailable,,
+EMP-054,Tyler,Wright,Carder,Wednesday,Available,16:00,02:00
+EMP-054,Tyler,Wright,Carder,Thursday,Available,16:00,02:00
+EMP-054,Tyler,Wright,Carder,Friday,Available,16:00,02:00
+EMP-054,Tyler,Wright,Carder,Saturday,Available,16:00,02:00
+EMP-054,Tyler,Wright,Carder,Sunday,All Day Unavailable,,
+EMP-055,Malik,Robinson,Security,Monday,Available,16:00,02:00
+EMP-055,Malik,Robinson,Security,Tuesday,Available,16:00,02:00
+EMP-055,Malik,Robinson,Security,Wednesday,Available,16:00,02:00
+EMP-055,Malik,Robinson,Security,Thursday,Available,16:00,02:00
+EMP-055,Malik,Robinson,Security,Friday,Available,16:00,02:00
+EMP-055,Malik,Robinson,Security,Saturday,Available,16:00,02:00
+EMP-055,Malik,Robinson,Security,Sunday,All Day Unavailable,,
+EMP-056,Devon,Carter,Security,Monday,Available,16:00,02:00
+EMP-056,Devon,Carter,Security,Tuesday,Available,16:00,02:00
+EMP-056,Devon,Carter,Security,Wednesday,Available,16:00,02:00
+EMP-056,Devon,Carter,Security,Thursday,Available,16:00,02:00
+EMP-056,Devon,Carter,Security,Friday,Available,16:00,02:00
+EMP-056,Devon,Carter,Security,Saturday,Available,16:00,02:00
+EMP-056,Devon,Carter,Security,Sunday,All Day Unavailable,,
+EMP-057,Jamal,Harris,Security,Monday,Available,16:00,02:00
+EMP-057,Jamal,Harris,Security,Tuesday,Available,16:00,02:00
+EMP-057,Jamal,Harris,Security,Wednesday,Available,16:00,02:00
+EMP-057,Jamal,Harris,Security,Thursday,Available,16:00,02:00
+EMP-057,Jamal,Harris,Security,Friday,Available,16:00,02:00
+EMP-057,Jamal,Harris,Security,Saturday,Available,16:00,02:00
+EMP-057,Jamal,Harris,Security,Sunday,All Day Unavailable,,
+EMP-058,Tyrone,Mitchell,Security,Monday,All Day Unavailable,,
+EMP-058,Tyrone,Mitchell,Security,Tuesday,Available,16:00,02:00
+EMP-058,Tyrone,Mitchell,Security,Wednesday,Available,16:00,02:00
+EMP-058,Tyrone,Mitchell,Security,Thursday,Available,16:00,02:00
+EMP-058,Tyrone,Mitchell,Security,Friday,Available,16:00,02:00
+EMP-058,Tyrone,Mitchell,Security,Saturday,Available,16:00,02:00
+EMP-058,Tyrone,Mitchell,Security,Sunday,All Day Unavailable,,
+EMP-059,Isaiah,Lewis,Security,Monday,Available,16:00,02:00
+EMP-059,Isaiah,Lewis,Security,Tuesday,Available,16:00,02:00
+EMP-059,Isaiah,Lewis,Security,Wednesday,Available,16:00,02:00
+EMP-059,Isaiah,Lewis,Security,Thursday,Available,16:00,02:00
+EMP-059,Isaiah,Lewis,Security,Friday,Available,16:00,02:00
+EMP-059,Isaiah,Lewis,Security,Saturday,Available,16:00,02:00
+EMP-059,Isaiah,Lewis,Security,Sunday,All Day Unavailable,,
+EMP-060,Carlos,Reyes,Security,Monday,All Day Unavailable,,
+EMP-060,Carlos,Reyes,Security,Tuesday,Available,16:00,02:00
+EMP-060,Carlos,Reyes,Security,Wednesday,Available,16:00,02:00
+EMP-060,Carlos,Reyes,Security,Thursday,Available,16:00,02:00
+EMP-060,Carlos,Reyes,Security,Friday,Available,16:00,02:00
+EMP-060,Carlos,Reyes,Security,Saturday,Available,16:00,02:00
+EMP-060,Carlos,Reyes,Security,Sunday,All Day Unavailable,,
+EMP-061,Rashad,King,Security,Monday,Available,16:00,02:00
+EMP-061,Rashad,King,Security,Tuesday,Available,16:00,02:00
+EMP-061,Rashad,King,Security,Wednesday,Available,16:00,02:00
+EMP-061,Rashad,King,Security,Thursday,Available,16:00,02:00
+EMP-061,Rashad,King,Security,Friday,Available,16:00,02:00
+EMP-061,Rashad,King,Security,Saturday,Available,16:00,02:00
+EMP-061,Rashad,King,Security,Sunday,All Day Unavailable,,
+EMP-062,Damien,Brooks,Security,Monday,All Day Unavailable,,
+EMP-062,Damien,Brooks,Security,Tuesday,Available,16:00,02:00
+EMP-062,Damien,Brooks,Security,Wednesday,Available,16:00,02:00
+EMP-062,Damien,Brooks,Security,Thursday,Available,16:00,02:00
+EMP-062,Damien,Brooks,Security,Friday,Available,16:00,02:00
+EMP-062,Damien,Brooks,Security,Saturday,Available,16:00,02:00
+EMP-062,Damien,Brooks,Security,Sunday,All Day Unavailable,,
+EMP-063,Kevin,Thompson,Security,Monday,Available,16:00,02:00
+EMP-063,Kevin,Thompson,Security,Tuesday,Available,16:00,02:00
+EMP-063,Kevin,Thompson,Security,Wednesday,Available,16:00,02:00
+EMP-063,Kevin,Thompson,Security,Thursday,Available,16:00,02:00
+EMP-063,Kevin,Thompson,Security,Friday,Available,16:00,02:00
+EMP-063,Kevin,Thompson,Security,Saturday,Available,16:00,02:00
+EMP-063,Kevin,Thompson,Security,Sunday,All Day Unavailable,,
+EMP-064,Marcus,Allen,Security,Monday,Available,16:00,02:00
+EMP-064,Marcus,Allen,Security,Tuesday,All Day Unavailable,,
+EMP-064,Marcus,Allen,Security,Wednesday,Available,16:00,02:00
+EMP-064,Marcus,Allen,Security,Thursday,Available,16:00,02:00
+EMP-064,Marcus,Allen,Security,Friday,Available,16:00,02:00
+EMP-064,Marcus,Allen,Security,Saturday,Available,16:00,02:00
+EMP-064,Marcus,Allen,Security,Sunday,All Day Unavailable,,
+EMP-065,DeAndre,Williams,Security,Monday,Available,16:00,02:00
+EMP-065,DeAndre,Williams,Security,Tuesday,Available,16:00,02:00
+EMP-065,DeAndre,Williams,Security,Wednesday,Available,16:00,02:00
+EMP-065,DeAndre,Williams,Security,Thursday,Available,16:00,02:00
+EMP-065,DeAndre,Williams,Security,Friday,Available,16:00,02:00
+EMP-065,DeAndre,Williams,Security,Saturday,Available,16:00,02:00
+EMP-065,DeAndre,Williams,Security,Sunday,All Day Unavailable,,
+EMP-066,Trevon,Scott,Security,Monday,All Day Unavailable,,
+EMP-066,Trevon,Scott,Security,Tuesday,Available,16:00,02:00
+EMP-066,Trevon,Scott,Security,Wednesday,Available,16:00,02:00
+EMP-066,Trevon,Scott,Security,Thursday,Available,16:00,02:00
+EMP-066,Trevon,Scott,Security,Friday,Available,16:00,02:00
+EMP-066,Trevon,Scott,Security,Saturday,Available,16:00,02:00
+EMP-066,Trevon,Scott,Security,Sunday,All Day Unavailable,,
+EMP-067,Ashley,Bennett,Carder,Monday,All Day Unavailable,,
+EMP-067,Ashley,Bennett,Carder,Tuesday,Available,16:00,02:00
+EMP-067,Ashley,Bennett,Carder,Wednesday,Available,16:00,02:00
+EMP-067,Ashley,Bennett,Carder,Thursday,Available,16:00,02:00
+EMP-067,Ashley,Bennett,Carder,Friday,Available,16:00,02:00
+EMP-067,Ashley,Bennett,Carder,Saturday,Available,16:00,02:00
+EMP-067,Ashley,Bennett,Carder,Sunday,All Day Unavailable,,
+EMP-068,Cameron,Ross,Carder,Monday,All Day Unavailable,,
+EMP-068,Cameron,Ross,Carder,Tuesday,All Day Unavailable,,
+EMP-068,Cameron,Ross,Carder,Wednesday,Available,16:00,02:00
+EMP-068,Cameron,Ross,Carder,Thursday,Available,16:00,02:00
+EMP-068,Cameron,Ross,Carder,Friday,Available,16:00,02:00
+EMP-068,Cameron,Ross,Carder,Saturday,Available,16:00,02:00
+EMP-068,Cameron,Ross,Carder,Sunday,All Day Unavailable,,
+EMP-069,Jordan,Powell,Carder,Monday,All Day Unavailable,,
+EMP-069,Jordan,Powell,Carder,Tuesday,Available,16:00,02:00
+EMP-069,Jordan,Powell,Carder,Wednesday,Available,16:00,02:00
+EMP-069,Jordan,Powell,Carder,Thursday,Available,16:00,02:00
+EMP-069,Jordan,Powell,Carder,Friday,Available,16:00,02:00
+EMP-069,Jordan,Powell,Carder,Saturday,Available,16:00,02:00
+EMP-069,Jordan,Powell,Carder,Sunday,All Day Unavailable,,
+EMP-070,Riley,Coleman,Carder,Monday,All Day Unavailable,,
+EMP-070,Riley,Coleman,Carder,Tuesday,All Day Unavailable,,
+EMP-070,Riley,Coleman,Carder,Wednesday,Available,16:00,02:00
+EMP-070,Riley,Coleman,Carder,Thursday,Available,16:00,02:00
+EMP-070,Riley,Coleman,Carder,Friday,Available,16:00,02:00
+EMP-070,Riley,Coleman,Carder,Saturday,Available,16:00,02:00
+EMP-070,Riley,Coleman,Carder,Sunday,All Day Unavailable,,

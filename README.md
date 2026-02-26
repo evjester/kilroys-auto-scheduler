@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kilroy's Bar Auto-Scheduler
 
-## Getting Started
+Intelligent auto-scheduling demo for bar staff, powered by historical Toast POS data and 7shifts workforce data. **All data is mock** — no real API connections or credentials.
 
-First, run the development server:
+## Quick Start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run generate-data   # Creates mock CSV files in mock-data/
+npm run dev             # Starts on localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How It Works
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Ingests** 4 weeks of mock Toast data (daily sales, employee tips, labor hours, checks)
+2. **Ingests** mock 7shifts data (employee roster, availability, time-off requests, historical shifts)
+3. **Computes** per-employee performance scores from the Toast metrics
+4. **Generates** an optimized weekly schedule using a weighted scoring algorithm
+5. **Explains** every assignment with human-readable reasoning
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Scheduling Algorithm
 
-## Learn More
+Uses **greedy assignment with difficulty sorting + swap optimization**:
 
-To learn more about Next.js, take a look at the following resources:
+- Shifts are sorted hardest-to-fill first (prime shifts, constrained roles)
+- Each employee is scored across 6 weighted factors:
+  - **Performance (25%)** — Toast-derived sales/hr, tips/hr, tip %
+  - **Proficiency (20%)** — Primary role match vs secondary role
+  - **Preference (15%)** — Day and shift type preferences
+  - **Fairness (20%)** — Equitable prime shift distribution over 4 weeks
+  - **Rest (10%)** — Clopen avoidance, minimum 10hr between shifts
+  - **Hours Need (10%)** — Distance from target weekly hours
+- After greedy assignment, a swap optimization pass catches improvements
+- Every assignment includes a full reasoning breakdown
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Hard Constraints (never violated)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Employee availability windows
+- Role qualification
+- Max weekly hours (40hr default)
+- No overlapping shifts
+- Minimum 10hr rest between shifts
+- Approved time-off requests
 
-## Deploy on Vercel
+## Pages
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Route | Description |
+|-------|-------------|
+| `/` | Dashboard with summary stats and daily coverage chart |
+| `/schedule` | Weekly grid (role x day) with color-coded shift cards |
+| `/employees` | Sortable employee table with Toast performance metrics |
+| `/reasoning` | Searchable assignment reasoning log with full scoring |
+| `/what-if` | Scenario simulator — call-outs, availability changes |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Project Structure
+
+```
+auto-scheduler/
+├── scripts/generate-mock-data.ts    # Mock data generator
+├── mock-data/
+│   ├── toast/                       # Sales, tips, labor, checks CSVs
+│   └── 7shifts/                     # Employees, availability, time-off, shifts
+├── src/
+│   ├── lib/
+│   │   ├── types.ts                 # TypeScript interfaces
+│   │   ├── mock-config.ts           # Bar config, employee defs, staffing reqs
+│   │   ├── time-utils.ts            # Overnight shift math
+│   │   ├── ingest.ts                # CSV parsers
+│   │   ├── metrics.ts               # Performance score computation
+│   │   ├── shift-templates.ts       # Weekly shift slot generation
+│   │   ├── constraints.ts           # Hard constraint checking
+│   │   ├── scoring.ts               # 6-factor weighted scoring
+│   │   ├── reasoning.ts             # Natural-language explanations
+│   │   └── scheduler.ts             # Core scheduling algorithm
+│   └── app/                         # Next.js App Router (pages + API)
+```
+
+## Tech Stack
+
+- **Next.js 16** (App Router, TypeScript)
+- **Tailwind CSS v4**
+- **PapaParse** (CSV parsing)
+- **date-fns** (date math)
+
+## Key Assumptions
+
+- Single location: Kilroy's on Kirkwood, Bloomington, IN
+- 15 employees across 7 roles (Bartender, Lead Bartender, Barback, Server, Host, Doorman, Bar Manager)
+- Operating hours: 11 AM – 2 AM (Sunday closes after AM shift)
+- Shifts: AM (11:00–17:00), PM (16:00–01:00), Late (20:00–02:00)
+- All data is synthetic mock data — no real PII or API keys

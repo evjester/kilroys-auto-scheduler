@@ -1,0 +1,69 @@
+Employee ID,First Name,Last Name,Email,Phone,Wage,Departments,Roles
+EMP-001,Sofia,Martinez,sofia.martinez@email.com,+14746317213,16.00,Bar,Bartender
+EMP-002,Marcus,Rivera,marcus.rivera@email.com,+16402387665,15.00,Bar,Bartender
+EMP-003,Jasmine,Chen,jasmine.chen@email.com,+13181241943,15.00,Bar,Bartender
+EMP-004,Jake,Patterson,jake.patterson@email.com,+12958682846,12.00,Bar,Bartender
+EMP-005,Tyler,Brooks,tyler.brooks@email.com,+15163119785,18.00,Bar,Lead Bartender;Bartender
+EMP-006,Ryan,Okafor,ryan.okafor@email.com,+19201369453,12.00,Bar,Barback
+EMP-007,Ethan,Kim,ethan.kim@email.com,+16668366722,11.00,Bar,Barback
+EMP-008,Aisha,Williams,aisha.williams@email.com,+13812140441,5.50,Floor,Server
+EMP-009,Tony,Garcia,tony.garcia@email.com,+12127978094,5.50,Floor,Server
+EMP-010,Katie,Brown,katie.brown@email.com,+12939042955,5.50,Floor,Server
+EMP-013,Darius,Washington,darius.washington@email.com,+18465451729,16.00,Security,Security
+EMP-014,Chris,Patel,chris.patel@email.com,+16408938419,14.00,Security,Security
+EMP-015,Becca,Thompson,becca.thompson@email.com,+17148968489,16.00,Bar,Bartender
+EMP-016,Drew,Collins,drew.collins@email.com,+19086199689,15.00,Bar,Bartender
+EMP-017,Megan,Russo,megan.russo@email.com,+14340505846,14.00,Bar,Bartender
+EMP-018,Cole,Jenkins,cole.jenkins@email.com,+12946785248,15.00,Bar,Bartender
+EMP-019,Hailey,Nguyen,hailey.nguyen@email.com,+14530876844,14.00,Bar,Bartender
+EMP-020,Logan,Scott,logan.scott@email.com,+19771444619,13.00,Bar,Bartender
+EMP-021,Zoe,Henderson,zoe.henderson@email.com,+16322879263,14.00,Bar,Bartender
+EMP-022,Nate,Fitzgerald,nate.fitzgerald@email.com,+15460967357,13.00,Bar,Bartender
+EMP-023,Kayla,Murphy,kayla.murphy@email.com,+14998485882,15.00,Bar,Bartender
+EMP-024,Trey,Adams,trey.adams@email.com,+13461364854,12.00,Bar,Bartender
+EMP-025,Maddie,Turner,maddie.turner@email.com,+12667779376,14.00,Bar,Bartender
+EMP-026,Dylan,Morales,dylan.morales@email.com,+13445662585,13.00,Bar,Bartender
+EMP-027,Lexi,Harper,lexi.harper@email.com,+12398340369,12.00,Bar,Bartender
+EMP-028,Caleb,Stewart,caleb.stewart@email.com,+12415393687,15.00,Bar,Bartender
+EMP-029,Jordan,Blake,jordan.blake@email.com,+15639960595,20.00,Bar,Lead Bartender;Bartender
+EMP-030,Samantha,Reed,samantha.reed@email.com,+14592983555,18.00,Bar,Lead Bartender;Bartender
+EMP-031,Matt,Donovan,matt.donovan@email.com,+15466589567,17.00,Bar,Lead Bartender;Bartender
+EMP-032,Olivia,Price,olivia.price@email.com,+15134174160,19.00,Bar,Lead Bartender;Bartender
+EMP-033,Devon,Marshall,devon.marshall@email.com,+14303082117,12.00,Bar,Barback
+EMP-034,Jalen,Cooper,jalen.cooper@email.com,+13625792787,11.00,Bar,Barback
+EMP-035,Isaac,Bell,isaac.bell@email.com,+14370996465,10.50,Bar,Barback
+EMP-036,Mason,Perry,mason.perry@email.com,+19857233202,12.00,Bar,Barback
+EMP-037,Lucas,Ward,lucas.ward@email.com,+18951489402,11.00,Bar,Barback
+EMP-038,Brandon,Long,brandon.long@email.com,+15701002945,13.00,Bar,Barback
+EMP-039,Paige,Ramirez,paige.ramirez@email.com,+14479708607,6.00,Floor,Server
+EMP-040,Noah,Foster,noah.foster@email.com,+15026113008,5.50,Floor,Server
+EMP-041,Emma,Sullivan,emma.sullivan@email.com,+16491781529,5.50,Floor,Server
+EMP-042,Grace,Kelley,grace.kelley@email.com,+17273782926,5.50,Floor,Server
+EMP-043,Liam,Hayes,liam.hayes@email.com,+17537879117,5.50,Floor,Server
+EMP-044,Marcus,Green,marcus.green@email.com,+16637671217,15.00,Security,Security
+EMP-045,Andre,Jackson,andre.jackson@email.com,+17294796536,17.00,Security,Security
+EMP-046,Terrence,Boyd,terrence.boyd@email.com,+12433797840,13.00,Security,Security
+EMP-047,Kevin,Walsh,kevin.walsh@email.com,+13193887545,22.00,Bar,Lead Bartender;Bartender
+EMP-048,Rachel,Ellis,rachel.ellis@email.com,+19025211183,21.00,Bar,Lead Bartender;Bartender
+EMP-049,Ian,Doyle,ian.doyle@email.com,+13566942273,14.00,Bar,Bartender
+EMP-050,Taylor,Quinn,taylor.quinn@email.com,+13589915144,13.00,Bar,Bartender
+EMP-051,Brianna,Taylor,brianna.taylor@email.com,+14527893456,12.00,Security,Carder
+EMP-052,Jaylen,Davis,jaylen.davis@email.com,+15639784512,11.00,Security,Carder
+EMP-053,Savannah,Moore,savannah.moore@email.com,+16745891234,12.00,Security,Carder
+EMP-054,Tyler,Wright,tyler.wright@email.com,+17856912345,10.50,Security,Carder
+EMP-055,Malik,Robinson,malik.robinson@email.com,+18967023456,15.00,Security,Security
+EMP-056,Devon,Carter,devon.carter@email.com,+19078134567,14.00,Security,Security
+EMP-057,Jamal,Harris,jamal.harris@email.com,+12189245678,16.00,Security,Security
+EMP-058,Tyrone,Mitchell,tyrone.mitchell@email.com,+13290356789,13.00,Security,Security
+EMP-059,Isaiah,Lewis,isaiah.lewis@email.com,+14401467890,15.00,Security,Security
+EMP-060,Carlos,Reyes,carlos.reyes@email.com,+15512578901,14.00,Security,Security
+EMP-061,Rashad,King,rashad.king@email.com,+16623689012,16.00,Security,Security
+EMP-062,Damien,Brooks,damien.brooks@email.com,+17734790123,13.00,Security,Security
+EMP-063,Kevin,Thompson,kevin.thompson@email.com,+18845801234,15.00,Security,Security
+EMP-064,Marcus,Allen,marcus.allen@email.com,+19956912345,14.00,Security,Security
+EMP-065,DeAndre,Williams,deandre.williams@email.com,+12067023456,16.00,Security,Security
+EMP-066,Trevon,Scott,trevon.scott@email.com,+13178134567,13.00,Security,Security
+EMP-067,Ashley,Bennett,ashley.bennett@email.com,+14289245678,12.00,Security,Carder
+EMP-068,Cameron,Ross,cameron.ross@email.com,+15390356789,11.00,Security,Carder
+EMP-069,Jordan,Powell,jordan.powell@email.com,+16401467890,12.00,Security,Carder
+EMP-070,Riley,Coleman,riley.coleman@email.com,+17512578901,10.50,Security,Carder

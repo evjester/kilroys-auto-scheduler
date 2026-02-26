@@ -1,26 +1,185 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ============================================================
+   Tailwind Theme — Light mode defaults
+   ============================================================
+   @theme generates CSS variables on :root AND creates utility
+   classes that reference them. The .dark block overrides
+   those variables for dark mode.
+   ============================================================ */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+@theme {
+  /* Surface colors */
+  --color-background: #f8fafc;
+  --color-surface: #f1f5f9;
+  --color-surface-2: #e2e8f0;
+  --color-elevated: #ffffff;
+  --color-backdrop: rgba(248, 250, 252, 0.95);
+
+  /* Text colors */
+  --color-foreground: #0f172a;
+  --color-secondary: #334155;
+  --color-muted: #64748b;
+  --color-faint: #94a3b8;
+
+  /* Borders */
+  --color-border: rgba(0, 0, 0, 0.10);
+  --color-border-strong: rgba(0, 0, 0, 0.15);
+
+  /* Overlays (tints over backgrounds) */
+  --color-overlay-subtle: rgba(0, 0, 0, 0.03);
+  --color-overlay: rgba(0, 0, 0, 0.05);
+  --color-overlay-hover: rgba(0, 0, 0, 0.08);
+  --color-overlay-medium: rgba(0, 0, 0, 0.12);
+  --color-overlay-strong: rgba(0, 0, 0, 0.16);
+
+  /* Brand colors (same in both themes) */
+  --color-brand-50:  #f0fdf4;
+  --color-brand-100: #dcfce7;
+  --color-brand-200: #bbf7d0;
+  --color-brand-500: #22c55e;
+  --color-brand-600: #16a34a;
+  --color-brand-700: #15803d;
+  --color-accent-500: #ef4444;
+  --color-accent-600: #dc2626;
+  --color-gold-500: #eab308;
+  --color-gold-600: #ca8a04;
+
+  /* Fonts */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ============================================================
+   Non-theme CSS variables — Light defaults
+   MUST come before .dark so .dark overrides win by cascade
+   ============================================================ */
+
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(0, 0, 0, 0.08);
+  --glass-card-bg: rgba(255, 255, 255, 0.8);
+  --glass-card-shadow: rgba(0, 0, 0, 0.06);
+  --glass-nav-bg: rgba(255, 255, 255, 0.85);
+  --glass-nav-border: rgba(0, 0, 0, 0.08);
+  --glass-hover-bg: rgba(0, 0, 0, 0.05);
+  --glass-section-bg: rgba(255, 255, 255, 0.6);
+  --glass-section-border: rgba(0, 0, 0, 0.06);
+
+  --body-bg: linear-gradient(135deg, #f1f5f9 0%, #ffffff 50%, #f1f5f9 100%);
+
+  --select-option-bg: #f1f5f9;
+  --select-option-text: #0f172a;
+  --color-scheme: light;
+}
+
+/* ============================================================
+   Dark Mode Overrides — AFTER :root so it wins cascade
+   ============================================================ */
+
+.dark {
+  /* Override theme colors */
+  --color-background: #0b0e14;
+  --color-surface: #131720;
+  --color-surface-2: #1a1f2e;
+  --color-elevated: #131720;
+  --color-backdrop: rgba(11, 14, 20, 0.95);
+
+  --color-foreground: #f1f5f9;
+  --color-secondary: #d1d5db;
+  --color-muted: #9ca3af;
+  --color-faint: #6b7280;
+
+  --color-border: rgba(255, 255, 255, 0.10);
+  --color-border-strong: rgba(255, 255, 255, 0.15);
+
+  --color-overlay-subtle: rgba(255, 255, 255, 0.03);
+  --color-overlay: rgba(255, 255, 255, 0.05);
+  --color-overlay-hover: rgba(255, 255, 255, 0.10);
+  --color-overlay-medium: rgba(255, 255, 255, 0.15);
+  --color-overlay-strong: rgba(255, 255, 255, 0.20);
+
+  /* Override glass */
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.15);
+  --glass-card-bg: rgba(255, 255, 255, 0.08);
+  --glass-card-shadow: rgba(0, 0, 0, 0.4);
+  --glass-nav-bg: rgba(11, 14, 20, 0.9);
+  --glass-nav-border: rgba(255, 255, 255, 0.12);
+  --glass-hover-bg: rgba(255, 255, 255, 0.12);
+  --glass-section-bg: rgba(255, 255, 255, 0.06);
+  --glass-section-border: rgba(255, 255, 255, 0.12);
+
+  /* Override body + forms */
+  --body-bg: linear-gradient(135deg, #0b0e14 0%, #111827 50%, #0b0e14 100%);
+  --select-option-bg: #1a1f2e;
+  --select-option-text: #f1f5f9;
+  --color-scheme: dark;
+}
+
+/* ============================================================
+   Base Styles
+   ============================================================ */
+
+html {
+  color-scheme: var(--color-scheme);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--body-bg);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+input, select, textarea {
+  color-scheme: var(--color-scheme);
+}
+
+select option {
+  background-color: var(--select-option-bg);
+  color: var(--select-option-text);
+}
+
+input[type="time"],
+input[type="date"],
+input[type="datetime-local"] {
+  color-scheme: var(--color-scheme);
+}
+
+/* ============================================================
+   Glassmorphism Utility Classes
+   ============================================================ */
+
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+}
+
+.glass-card {
+  background: var(--glass-card-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px var(--glass-card-shadow);
+}
+
+.glass-nav {
+  background: var(--glass-nav-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--glass-nav-border);
+}
+
+.glass-hover:hover {
+  background: var(--glass-hover-bg);
+}
+
+.glass-section {
+  background: var(--glass-section-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-section-border);
 }

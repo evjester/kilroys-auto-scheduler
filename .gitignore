@@ -31,7 +31,11 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
+.env
+
+# Claude Code
+CLAUDE.md
+.claude/*
 
 # vercel
 .vercel
